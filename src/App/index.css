@@ -1,0 +1,55 @@
+@import '../../node_modules/video-react/dist/video-react.css';
+
+
+html{
+    font-size: 16px;
+}
+
+section {
+   margin: 3rem 0;
+   border-top: 1px solid #bec7cf ;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.info-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button-content {
+   margin: 10px;     
+}
+
+img {
+    max-width: 100%;
+}
+
+.col-md-4{
+     max-width: 100%;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.list-wrapper{
+    flex-grow: 10;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 580px){
+    html{
+        font-size: 12px;
+    }
+    .list-wrapper{
+         padding-left: 0;
+    }
+}
